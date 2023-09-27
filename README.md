@@ -76,3 +76,36 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
 export AWS_ACCESS_KEY_ID='AKIAIOSFODNN7EXAMPLE'
 export AWS_SECRET_ACCESS_KEY='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
 export AWS_DEFAULT_REGION=us-west-2
+
+
+
+###Terraform basics
+
+registry :https://registry.terraform.io/
+
+-Providers
+
+-Modules
+
+
+commands:
+```
+terraform init
+
+terraform plan
+
+terraform apply 
+
+terraform apply --auto-approve
+
+terraform output
+
+```
+
+
+.terraform.lock.hcl  has provider version this file to be submitted to Version control
+
+terraform.tfstate contain information about current state of infrastrecture 
+tis file **should not be commited** to version control
+
+terraform.tfstate.backup  previous state file backup
