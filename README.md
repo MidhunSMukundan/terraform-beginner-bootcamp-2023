@@ -131,3 +131,16 @@ https://developer.hashicorp.com/terraform/cli/config/config-file#credentials
 
 bash script created 
  source ./bin/generate_tfrc_credentials
+
+
+
+### tf alias
+
+open   ~/.bash_profile was not working in gitpod so used vi
+
+ vi  ~/.bash_profile
+add  alias tf="terraform"
+
+
+reload the profile
+source ~/.bash_profile
