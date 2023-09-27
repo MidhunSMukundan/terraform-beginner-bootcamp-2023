@@ -109,3 +109,9 @@ terraform.tfstate contain information about current state of infrastrecture
 tis file **should not be commited** to version control
 
 terraform.tfstate.backup  previous state file backup
+
+
+
+terraform destroy
+
+`terraform destroy --auto-approve`
