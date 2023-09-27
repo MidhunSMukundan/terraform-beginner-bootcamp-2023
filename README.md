@@ -115,3 +115,14 @@ terraform.tfstate.backup  previous state file backup
 terraform destroy
 
 `terraform destroy --auto-approve`
+
+
+
+terraform login
+
+credentials "app.terraform.io" {
+  token = ""xxxxxxxx
+}
+
+
+https://developer.hashicorp.com/terraform/cli/config/config-file#credentials
