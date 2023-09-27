@@ -126,3 +126,8 @@ credentials "app.terraform.io" {
 
 
 https://developer.hashicorp.com/terraform/cli/config/config-file#credentials
+
+
+
+bash script created 
+ source ./bin/generate_tfrc_credentials
