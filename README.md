@@ -26,3 +26,32 @@ sudo apt update && sudo apt install terraform`
 
 Added chmod u+x for bash script file to grand execute priviledge
 
+##wORKING WITH Env Vars
+
+# `env`  List enviornment variable
+
+`#env | grep terraform`
+
+
+##Setting Env Var
+```sh
+Env_Val='value
+```
+##Print Env Var
+
+```sh
+echo $Env_Val
+```
+
+### Scoping of Env Vars
+
+its limitted to terminal , if Env Var to persisit in all future terninal 
+need to set the Env Var to bash profile
+
+####Persisting Env Var
+
+```
+gp env Env_Val ='value'
+```
+
+or ot can be added in gitpod.yml
