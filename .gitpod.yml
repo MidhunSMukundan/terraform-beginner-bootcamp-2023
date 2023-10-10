@@ -1,9 +1,12 @@
 tasks:
   - name: terraform
     before: |
+
+      cd $PROJECT_ROOT
+      source ./bin/set_tf_alias.sh
       source ./bin/install_terraform.sh
       source ./bin/generate_tfrc_credentials
-      source ./bin/set_tf_alias
+      
       cp $PROJECT_ROOT/terraform.tfvars $PROJECT_ROOT/terraform.tfvars.example
   - name: aws-cli
     env:
